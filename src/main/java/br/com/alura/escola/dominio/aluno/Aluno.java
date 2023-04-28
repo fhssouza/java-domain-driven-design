@@ -2,14 +2,17 @@ package br.com.alura.escola.dominio.aluno;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//AGGREATE ROOT
 public class Aluno {
-	
+
+	//object value
 	private CPF cpf;
 	private String nome;
-	
+
+	//object value
 	private Email email;
-	
+
+	//object value
 	private List<Telefone> telefones = new ArrayList<>();
 	
 	private String senha;
